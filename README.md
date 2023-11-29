@@ -26,4 +26,21 @@
 
 13. **`git branch -m nuevo-nombre`**: Cambia el nombre de la rama actual.
 
+DATOS ADICIONALES (…or create a new repository on the command line)
+
+echo "# mp" >> README.md
+  git init
+  git add README.md
+  git commit -m "first commit"
+  git branch -M main
+  git remote add origin https://github.com/Bjorkey/mp.git
+  git push -u origin main
+
+
+  …or push an existing repository from the command line
+  
+git remote add origin https://github.com/Bjorkey/mp.git
+  git branch -M main
+  git push -u origin main
+
 Estos comandos son herramientas esenciales para trabajar con Git y te permitirán gestionar y colaborar eficientemente en proyectos de desarrollo de software.
